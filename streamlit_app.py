@@ -13,7 +13,7 @@ ticker = st.text_input("Enter stock ticker (e.g., AAPL, MSFT)", "AAPL")
 if st.button("Predict"):
     try:
         with st.spinner("Predicting..."):
-            response = requests.post("https://your-backend-url.onrender.com/predict", json={"ticker": ticker})
+            response = requests.post("https://stock-predictor-backend.onrender.com/predict", json={"ticker": ticker})
             data = response.json()
 
         if "prediction" not in data:

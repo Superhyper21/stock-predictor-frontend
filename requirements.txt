@@ -1,3 +1,9 @@
+streamlit
+requests
+pandas
+yfinance
+
+
 git add requirements.txt
 git commit -m "Add missing yfinance dependency"
 git push

@@ -5,6 +5,7 @@ yfinance
 
 
 git add requirements.txt
-git commit -m "Add missing yfinance dependency"
+git commit -m "Fix: Clean up requirements.txt for Streamlit Cloud"
 git push
+
 
